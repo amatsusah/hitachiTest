@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Onlinetest</string>
+    <string-array name="city_array">
+        <item>Kuala Lumpur</item>
+        <item>Singapore</item>
+    </string-array>
+</resources>
