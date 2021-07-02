@@ -6,20 +6,13 @@ import androidx.lifecycle.MutableLiveData;
 
 import com.loise.onlinetest.remote.api.Helper;
 import com.loise.onlinetest.remote.objects.WeatherResponse;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 import rx.Observer;
-import rx.Scheduler;
 import rx.schedulers.Schedulers;
 
 public class Repository {
     private final MutableLiveData<WeatherResponse>weatherLiveData;
-    private static WeatherResponse weatherResponse;
 
-    public Repository(Application application) { 
-        weatherResponse = new WeatherResponse();
+    public Repository(Application application) {
         weatherLiveData = new MutableLiveData<>();
     }
 

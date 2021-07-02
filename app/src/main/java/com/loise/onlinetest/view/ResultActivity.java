@@ -1,8 +1,6 @@
 package com.loise.onlinetest.view;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.Observer;
-
 import android.os.Bundle;
 import android.widget.EditText;
 
